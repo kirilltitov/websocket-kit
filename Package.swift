@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "WebSocketKit", targets: ["WebSocketKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.33.0"),
+        .package(url: "https://github.com/kirilltitov/swift-nio.git", .branch("getaddrinfo-verbose")),
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.16.0"),
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.14.0"),
         .package(url: "https://github.com/apple/swift-nio-transport-services.git", from: "1.11.4"),
